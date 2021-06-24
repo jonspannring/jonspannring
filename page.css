@@ -1,3 +1,11 @@
+/*
+#AD7B34 brown
+#FFCA80 lighter brown
+#FABA63 tan
+#2378AD dark blue
+#64C0FA light blue
+*/
+
 * {
   box-sizing: border-box;
 }
@@ -35,6 +43,12 @@ html {
     font-family: 'New Tegomin', serif;
 }
 
+#daimei {
+    font-family: 'New Tegomin', serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .me {
     width: auto;
     display: inline-block;
@@ -52,3 +66,23 @@ html {
 .languages h1 .english { display: none; }
 .languages h1:hover .japanese { display: none; }
 .languages h1:hover .english { display: block; }
+
+#icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+#title {
+    background-color: #2378AD;
+}
+
+#second_to_last_row {
+    background-color: #FFCA80;
+}
+
+#bottom_row {
+    background-color: #2378AD;
+}
+
+ul>li, #my_bio, #ending {
+    font-family: 'Nanum Gothic', sans-serif;
+}
