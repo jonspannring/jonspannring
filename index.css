@@ -35,7 +35,7 @@
 .col-12 {width: 100%;}
 
 html {
-  font-family: "Lucida Sans", sans-serif;
+  background-color: #64C0FA;
 }
 
 #hi {
@@ -76,7 +76,7 @@ html {
 }
 
 #second_to_last_row {
-    background-color: #FFCA80;
+    background-color: #AD7B34;
 }
 
 #bottom_row {
@@ -85,4 +85,8 @@ html {
 
 ul>li, #my_bio, #ending {
     font-family: 'Nanum Gothic', sans-serif;
+}
+
+::after {
+    background-color: #2378AD;
 }
