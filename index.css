@@ -4,6 +4,12 @@
 #FABA63 tan
 #2378AD dark blue
 #64C0FA light blue
+
+#948F69 brown
+#FFEF75 yellow
+#E0DBB6 pale yellow
+#645A94 pruple
+#C5BEE7 lilac
 */
 
 * {
@@ -35,7 +41,7 @@
 .col-12 {width: 100%;}
 
 html {
-  background-color: #64C0FA;
+  background-color: #C5BEE7;
 }
 
 #hi {
@@ -63,6 +69,10 @@ html {
     text-align: center;
 }
 
+.languages {
+    font-size: 2rem;
+}
+
 .languages h1 .english { display: none; }
 .languages h1:hover .japanese { display: none; }
 .languages h1:hover .english { display: block; }
@@ -72,21 +82,17 @@ html {
     justify-content: space-evenly;
 }
 #title {
-    background-color: #2378AD;
+    background-color: #645A94;
 }
 
 #second_to_last_row {
-    background-color: #AD7B34;
+    background-color: #FFEF75;
 }
 
 #bottom_row {
-    background-color: #2378AD;
+    background-color: #645A94;
 }
 
 ul>li, #my_bio, #ending {
     font-family: 'Nanum Gothic', sans-serif;
-}
-
-::after {
-    background-color: #2378AD;
 }
