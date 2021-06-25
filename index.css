@@ -85,6 +85,11 @@ html {
     background-color: #645A94;
 }
 
+#tabs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 #second_to_last_row {
     background-color: #FFEF75;
 }
